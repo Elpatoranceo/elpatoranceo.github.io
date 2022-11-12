@@ -1,39 +1,36 @@
  .u-section-1 {
-  background-image: url("images/Bloxorz.webp");
-  background-position: 50% 50%;
+  background-image: url("images/unnamed.png");
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 666px;
+  min-height: 1210px;
 }
 
 .u-section-1 .u-custom-html-1 {
-  margin-bottom: 59px;
-  height: auto;
-  min-height: 607px;
-  margin-top: 1px;
+  margin-bottom: 60px;
+  margin-top: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 549px;
+    min-height: 998px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 421px;
+    min-height: 764px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 316px;
+    min-height: 573px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 199px;
+    min-height: 361px;
   }
 }
