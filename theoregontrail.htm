@@ -25,9 +25,30 @@ stm_em();
 //-->
 </script>
 
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<div class="swf" dir="ltr" style="text-align: left;" trbidi="on">
-        <embed height="500" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="https://elpatoranceo.github.io/gssh1/garfieldsscaryscavengerhunt/main.swf" base="https://elpatoranceo.github.io/gssh1/garfieldsscaryscavengerhunt/" width="1000"></div>
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <style>
+         html, body, #jsdos {
+             width: 100%;
+             height: 100%;
+             margin: 0;
+             padding: 0;
+         }
+        </style>
+        <script src=" https://elpatoranceo.github.io/js-dos/js-dos.js"></script>
+        <link href=" https://elpatoranceo.github.io/js-dos/js-dos.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="jsdos" />
+        <script>
+         emulators.pathPrefix = "https://elpatoranceo.github.io/js-dos/";
+         Dos(document.getElementById("jsdos"))
+             .run("https://elpatoranceo.github.io/dos/oregontraildeluxe.jsdos");
+        </script>
+    </body>
+</html>
 
 <style>
 body {
